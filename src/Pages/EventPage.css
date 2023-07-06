@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  :root {
+    --heights: 50vh;
+    --widths: 100%;
+  }
+  
+  .slider-container {
+    height: var(--heights);
+    width: var(--widths);
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .active {
+    display: inline-block;
+  }
+  
+  .inactive {
+    display: none;
+  }
+  
+  .slides {
+    height: var(--heights);
+    width: var(--widths);
+    position: relative;
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .slide-title,
+  .slide-text {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    z-index: 10;
+  }
+  
+  .slide-text {
+    top: 65%;
+    font-size: 2rem;
+  }
+  
+  .prev,
+  .next {
+    color: transparent;
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1rem;
+    margin-top: -3rem;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .slider-container:hover .prev,.slider-container:hover .next {
+    color: black
+  }
+  
+  .slider-container:hover .prev:hover,
+  .slider-container:hover .next:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.5s ease-in;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .all-dots {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    top: 85%;
+    justify-content: center;
+    z-index: 200;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0px 3px;
+    background-color: transparent;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .slider-container:hover .dot:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* .active-dot {
+    background-color: rgba(255, 255, 255, 0.5);
+  } */
+  
+  .slider-container:hover .dot{
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .slider-container:hover .active-dot{
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .play-pause {
+    color: black;
+  }
+  .event-content{
+    padding: 20%;
+    padding-left: 30%;
+    padding-right: 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: #09357a;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 40px;
+  }
+  .event{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+  .event h1{
+    color: #fff;
+  }
+  .event-con{
+    color: #09357a;
+    text-align: left;
+  }
+  .upcomingeve{
+  color: #09357a;
+  text-align: center;
+  }
+  .acm-events{
+    padding: 20%;
+    padding-left: 30%;
+    padding-right: 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 40px;
+  }

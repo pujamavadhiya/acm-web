@@ -1,0 +1,26 @@
+.dept{
+    padding: 0 0 50px 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+  .dept-bx{
+    padding: 20%;
+    padding-left: 30%;
+    padding-right: 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: #09357a;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 40px;
+  }
+  .dept h1{
+    font-size: 45px;
+      font-weight: 700;
+    color: #fff;
+  }
+  .dept p{
+    color: #fff;
+  }

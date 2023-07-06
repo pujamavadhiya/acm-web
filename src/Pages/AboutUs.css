@@ -1,0 +1,29 @@
+.about{
+    padding: 0 0 50px 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+  .about-bx{
+    padding: 20%;
+    padding-left: 30%;
+    padding-right: 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: #09357a;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 40px;
+  }
+  .about h1{
+    font-size: 45px;
+      font-weight: 700;
+    color: #fff;
+  }
+  .about p{
+    color: #fff;
+  }
+  .about ul{
+    text-align: left;
+  }
