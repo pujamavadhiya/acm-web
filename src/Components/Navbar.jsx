@@ -14,12 +14,12 @@ import acmlogo from "../assets/img/acmlogo.png"
             <img className ="logo" src={acmlogo} alt="Logo"/>
 
             <ul className={Mobile? " nav-links-mobile" : "nav-links"} onClick={() =>setMobile(false)}> 
-            <Link to='/'><li>Home</li></Link>
-            <Link to='/aboutus'><li>About us</li></Link>
-            <Link to='/departmentpage'><li>Department</li></Link>
-            <Link to='/events'><li>Events</li></Link>
-            <Link to='/'><li>Blogs</li></Link>
-            <Link to='/'><li>Join Us</li></Link>
+            <Link to='/' className="home"><li>Home</li></Link>
+            <Link to='/aboutus' className="aboutus"><li>About us</li></Link>
+            <Link to='/departmentpage' className="deptpage"><li>Department</li></Link>
+            <Link to='/events'className="events"><li>Events</li></Link>
+            <Link to='/'className="blogs"><li>Blogs</li></Link>
+            <Link to={{ pathname: "https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&country=India&form_type=Student&promo=LEVEL&pay=DD" }} target="_blank" className="joinacm">Join ACM-W</Link>
             
             </ul>
             <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>

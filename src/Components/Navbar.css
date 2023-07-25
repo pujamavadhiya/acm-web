@@ -46,6 +46,7 @@ li{
     letter-spacing: 0.8px;
     padding: 0 25px;
 }
+
 button{
     border: none;
     background: none;
@@ -55,6 +56,48 @@ button{
     display: none;
 }
 
+.joinacm{
+color: black;
+font-size: 18px;
+padding: 0 20px;
+text-decoration: none;
+}
+
+.aboutus{
+    color: black;
+    font-size: 18px;
+    padding: 0 20px;
+    text-decoration: none;
+    }
+
+    .deptpage{
+        color: black;
+        font-size: 18px;
+        padding: 0 20px;
+        text-decoration: none;
+        }
+
+        .events{
+            color: black;
+            font-size: 18px;
+            padding: 0 20px;
+            text-decoration: none;
+            }
+
+            .blogs{
+                color: black;
+                font-size: 18px;
+                padding: 0 20px;
+                text-decoration: none;
+                }
+
+                .home{
+                    color: black;
+                    font-size: 18px;
+                    padding: 0 20px;
+                    text-decoration: none;
+                }
+                
 @media (max-width: 768px){
     .nav-links{
         display: none;

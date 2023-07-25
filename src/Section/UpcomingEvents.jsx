@@ -11,7 +11,6 @@ export const UpcomingEvents = () => {
     <div className="container">
       <Row className="aligh-items-center">
         <Col xs={12} md={6} xl={7} className="img1">
-        {/* <img src={projImg1} alt="Header Img"/> */}
         </Col>
         <Col xs={12} md={6} xl={5} className="img2">
         <img src={projImg1} alt="Header Img"/>

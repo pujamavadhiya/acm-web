@@ -1,7 +1,6 @@
 
 import faculty1 from "../assets/img/faculty.jpg";
 import faculty2 from "../assets/img/faculty2.jpg";
-// import ReactRoundedImage from "react-rounded-image";
 import { Row } from "react-bootstrap";
 import React from "react";
 import "./Faculty.css"
