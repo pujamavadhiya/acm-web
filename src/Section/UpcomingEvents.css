@@ -1,22 +1,27 @@
 .upcomingEvents {
-    padding-bottom: 5%;
-    position: relative;
-    background-color: #051734;
-    /* background-color: #040404; */
-    /* background-image: url('./assets/img/upbg15.jpg'); */
-  }
-  
-  /* .upeventscard{
+  padding-bottom: 5%;
+  position: relative;
+  background-color: #051734;
+  /* background-color: #040404; */
+  /* background-image: url('./assets/img/upbg15.jpg'); */
+}
+
+/* .upeventscard{
     background-image: url('./assets/img/upbg13.jpg');
   } */
-  .upcomingEvents h2 {
-    padding: 50px 0;
-      font-size: 45px;
-      font-weight: 700;
-    text-align: center;
-    color: #fff;
-  }
-  /* .upcomingEvents p {
+.upcomingEvents h2 {
+  padding: 50px 0;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+.header-image {
+  width: 100%;
+}
+
+/* .upcomingEvents p {
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
@@ -25,104 +30,136 @@
     text-align: center;
     width: 56%;
   } */
-  .nav-link#upcomingEvents-tabs-tab-first {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 55px 0px 0px 55px;
-  }
-  .nav-link#upcomingEvents-tabs-tab-second {
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  }
-  .nav-link#upcomingEvents-tabs-tab-third {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 0 55px 55px 0;
-  }
-  .eventhd{
-    color: #000000;
-  }
-  /* .upevents{
+.nav-link#upcomingEvents-tabs-tab-first {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 55px 0px 0px 55px;
+}
+
+.nav-link#upcomingEvents-tabs-tab-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#upcomingEvents-tabs-tab-third {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+}
+
+.eventhd {
+  color: #000000;
+}
+
+/* .upevents{
     padding: 10%; 
      background-image: url('./assets/img/upbg.jpg');
   } */
 
-  .eventimg{
-    height: 10%;
-  }
-  .even-imgbx {
-    
-    align-items: center;
-    position: relative;
-    border-radius: 30px;
-    overflow: hidden;
-    margin-bottom: 24px;
-    
-  }
-  .even-imgbx::before {
-    content: "";
-    background: #9bcee0;
-    opacity: 0.85;
-    position: absolute;
-    width: 100%;
-    height: 0;
-    transition: 0.4s ease-in-out;
-  }
-  .even-imgbx:hover::before {
-    height: 100%;
-  }
-  .even-txtx {
-    
-    position: absolute;
-    text-align: center;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.5s ease-in-out;
-    opacity: 0;
-    width: 100%;
-  }
-  .even-imgbx:hover .even-txtx {
-    top: 50%;
-    opacity: 1;
-  }
-  .even-txtx h4 {
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    line-height: 1.1em;
-    color: #000000;
-  }
-  .even-txtx span {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0.8px;
-    color: #000000;
-  }
-  .background-image-right {
-    top: 20%;
-    position: absolute;
-    bottom: 0;
-    width: 35%;
-    right: 0;
-    z-index: -4;
-  }
-  .upcomingevents{
-    margin-top: 0;
-    padding: 100px 0 100px 0;
-    /* background-image: url('./assets/img/Pujabg1.jpg'); */
-    background-color: #051734;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+.eventimg {
+  height: 10%;
+}
 
-  .img1{
-    background-color: #051734;
-  }
-  .img2{
-    align-items: center;
-    position: relative;
-    border-radius: 30px;
-    overflow: hidden;
+.even-imgbx {
+
+  align-items: center;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+
+}
+
+.even-imgbx::before {
+  content: "";
+  background: #9bcee0;
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.even-imgbx:hover::before {
+  height: 100%;
+}
+
+.even-txtx {
+
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+
+.even-imgbx:hover .even-txtx {
+  top: 50%;
+  opacity: 1;
+}
+
+.even-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+  color: #000000;
+}
+
+.even-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: #000000;
+}
+
+.background-image-right {
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
+}
+/* .eventhd{
+  align-items: center;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
     margin-bottom: 24px;
-  }
+} */
+.upcomingevents {
+  margin-top: 0;
+  padding: 100px 0 100px 0;
+  /* background-image: url('./assets/img/Pujabg1.jpg'); */
+  background-color: #051734;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+/* .img1 {
+  background-color: #051734;
+  align-items: center;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.img2 {
+  align-items: center;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+} */

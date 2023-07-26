@@ -1,91 +1,109 @@
-.faculty{
-    background-color: #051734;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-bottom: 5%;
-    position: relative;
-    align-items: center;
-    width: 100%;
-  }
-  .fac-box{
-    padding: 20%;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    /* background: #09357a; */
-    border-radius: 30px;
-    text-align: center;
-    padding: 40px 40px;
-  }
-  .facultyimg{
-   align-items: center;
-   height: 20%;
-   width: 20%;
-   padding-left: 50px;
-   border-radius: 50px 20px 0px 0px;
-  }
-  .fac1-image{
-    
-    height: 50%;
-    width: 50%;
-    margin-right: 300px;
-    margin-left: 200px;
-    margin-bottom: 50px;  
-    margin-top: 15px; 
-    display: flex; 
-     /* padding: 110px; */
-  }
-  .fac2-image{
-   
-  
-    height: 50%;
-    width: 50%;
-    margin-right: 150px;
-    margin-left: 150px;
-    margin-bottom: 50px;  
-    display: flex; 
-    /* padding: 15px; */
-  }
-  .fac-card-img-top{
-    border: 1px solid rgba(255, 280, 255, 0.5);
-    border-radius: 200px 200px 200px 200px;
-  }
-  .fac-card-title{
-    color: #fff;
-    text-align: center;
-    padding-top: 20px;
-  }
-  .faculty h5{
-    
-    color: #fff;
-    text-align: center;
-  }
-  .text-center-fs{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 45px;
-      font-weight: 700;
-    text-align: center;
-    color: #fff;
-  }
-  .faculty{
-    /* padding: 80px 0; */
-    position: relative;
-    background-color: rgb(255, 255, 255);
-  }
-  .facultynm{
-    padding-top: 4%;
-    padding-bottom: 4%;
-    font-size: 45px;
-      font-weight: 700;
-    text-align: center;
-    color: #fff;
-  }
-  .card-img-top{
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 0px 0px 0px 200px;
-  }
-  .col-sm{
-    padding: 40px;
-    position: relative;
-  }
-  
+.faculty {
+  background-color: #051734;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 5%;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+.fac-box {
+  padding: 20%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* background: #09357a; */
+  border-radius: 30px;
+  text-align: center;
+  padding: 40px 40px;
+}
+
+.facultyimg {
+  align-items: center;
+  height: 30%;
+  width: 30%;
+  padding-left: 50px;
+  border-radius: 50px 20px 0px 0px;
+}
+
+.fac1-image {
+
+  height: 50%;
+  width: 50%;
+  margin-right: 300px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  display: flex;
+  /* padding: 110px; */
+}
+
+.fac2-image {
+
+
+  height: 50%;
+  width: 50%;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  /* padding: 15px; */
+}
+
+.fac-card-img-top {
+  border: 1px solid rgba(255, 280, 255, 0.5);
+  border-radius: 200px 200px 200px 200px;
+  width: 300px;
+}
+
+.fac-card-title {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.faculty h5 {
+
+  color: #fff;
+  text-align: center;
+}
+
+.text-center-fs {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+.faculty {
+  /* padding: 80px 0; */
+  position: relative;
+  background-color: #051734;
+}
+
+.facultynm {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+.card-img-top {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 0px 200px;
+}
+
+.col-sm {
+  padding: 40px;
+  position: relative;
+}
+
+.fac-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
