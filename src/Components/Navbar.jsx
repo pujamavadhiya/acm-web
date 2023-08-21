@@ -18,7 +18,7 @@ import acmlogo from "../assets/img/acmlogo.png"
             <Link to='/aboutus' className="aboutus"><li>About us</li></Link>
             <Link to='/departmentpage' className="deptpage"><li>Department</li></Link>
             <Link to='/events'className="events"><li>Events</li></Link>
-            <Link to='/'className="blogs"><li>Blogs</li></Link>
+            {/* <Link to='/'className="blogs"><li>Blogs</li></Link> */}
             <Link to={{ pathname: "https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&country=India&form_type=Student&promo=LEVEL&pay=DD" }} target="_blank" className="joinacm">Join ACM-W</Link>
             
             </ul>

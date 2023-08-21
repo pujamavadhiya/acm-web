@@ -19,7 +19,7 @@ export const Banner = () => {
                 {/* <span className="tagline">Welcome to acm-w</span> */}
                   <h2>What is acm-w ?</h2>
                   <p>Association for Computing Machinery Council on Women in Computing(ACM-W) is an organization dedicated to promoting gender equality and increasing the representation of women in computing fields. The organization is a subset of the larger ACM (Association for Computing Machinery) professional organization and focuses on supporting, celebrating, and advocating for women in computing worldwide.</p><p> ACM-W provides various opportunities, resources, and initiatives to support women in computing, including scholarships, awards, mentoring programs, workshops, networking events, and conferences. The organization also supports research and advocacy efforts aimed at improving the representation and retention of women in computing fields.</p>
-                  <button onClick={() => console.log('aboutacm')}>Know more <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('aboutacm')}><a href="https://india.acm.org/acm-w-india" target ="_blank" className="knowbutton">Know more</a> <ArrowRightCircle size={25} /></button>
                   {/* <Link to="https://india.acm.org/acm-w-india">Know more <ArrowRightCircle size={25} /></Link> */}
               </div>}
             </TrackVisibility>

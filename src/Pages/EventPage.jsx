@@ -57,6 +57,9 @@
 
 //     );
 // }
+
+
+
 import React from 'react'
 
 const EventPage = () => {
@@ -68,4 +71,3 @@ const EventPage = () => {
 }
 
 export default EventPage
-
