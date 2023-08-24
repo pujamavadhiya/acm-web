@@ -1,0 +1,27 @@
+.card-title{
+    color: #000000;
+  }
+  .card-text{
+   color: #000000;
+  
+  }
+  .blog{
+    background-color: #ffffff;
+    padding: 50px 0;
+    position: relative;
+  }
+  .text-center{
+    font-size: 45px;
+      font-weight: 700;
+    text-align: center;
+    color: #09357a;
+  }
+  .card-img-top{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 0px 200px;
+  }
+  .col-sm{
+    padding: 40px;
+    position: relative;
+  }
+  

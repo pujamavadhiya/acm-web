@@ -37,7 +37,7 @@ export const Departments = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="dept-bx wow zoomIn ">
-                        <h1>Departments</h1>
+                        <h1 className="h1">Departments</h1>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme dept-slider">
                             <div className="item">   
                                 <img src={meter1} alt="Image" />
